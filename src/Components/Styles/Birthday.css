@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+.birthday {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.close {
+  width: 50%;
+}
+.upcoming {
+  width: 50%;
+}
+.all-upcoming {
+  width: 100%;
+  background: #f4f7fe;
+  padding: 10px 20px;
+  box-shadow: 6px 4px 20px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.today {
+  margin-bottom: 20px;
+}
+.everyone {
+  background: #f4f7fe;
+  padding: 15px 25px;
+  box-shadow: 6px 4px 20px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.today h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2b3674;
+}
+.each-person {
+  display: flex;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 6px 4px 20px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.person-info {
+  padding-left: 20px;
+  width: 100%;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+.name h2 {
+  color: #2b3674;
+  font-weight: 500;
+  font-size: 20px;
+}
+.person-info h5 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2b3674;
+  padding: 5px 0px;
+}
+.person-info h6 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2b3674;
+  padding: 5px 0px;
+}
+.person-info .contact {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.person-info .contact p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2b3674;
+}
+.person-info .contact h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #2b3674;
+}
+.recent {
+  background: #f4f7fe;
+  padding: 10px 20px;
+  box-shadow: 6px 4px 20px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.recent-page h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2b3674;
+}
+
+.upcoming h3 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2b3674;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1320px) {
+  .person-info .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .everyone {
+    background: #f4f7fe;
+    padding: 10px 15px;
+    box-shadow: 63px 30px 22px -9px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    width: 100%;
+  }
+  .name {
+    justify-content: left;
+  }
+  .person-info {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1030px) {
+  .birthday{
+    gap: 0px;
+  }
+  .all-upcoming,
+  .everyone,
+  .recent 
+    {
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .birthday {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+  }
+  .close,
+  .upcoming {
+    width: 100%;
+  }
+  .giving,
+  .received{
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 540px) {
+  .person-info .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .everyone {
+    background: #f4f7fe;
+    padding: 10px 15px;
+    box-shadow: 63px 30px 22px -9px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    width: 100%;
+  }
+  .name {
+    justify-content: left;
+  }
+  .person-info {
+    padding-left: 10px;
+  }
+}

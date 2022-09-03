@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+.title button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  background: #4318ff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+table{
+  margin-top: 30px;
+}
+.cancel-button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  background: #EC100C;
+  border: none;
+  padding: 10px;
+}
+td{
+  padding: 20px 5px;
+}
+
+
+@media (max-width: 768px) {
+  .newsletter{
+    overflow-x: scroll;
+  }
+}
